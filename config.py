@@ -10,5 +10,5 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 DEBUG = True
 
 # Connect to the database
-create_engine("postgres+psycopg2://postgres:bianca1980@localhost:5432/fyyur")
-SQLALCHEMY_DATABASE_URI = 'postgres+psycopg2://postgres:bianca1980@localhost:5432/fyyur'
+create_engine("postgres+psycopg2://postgres:password@localhost:5432/fyyur")
+SQLALCHEMY_DATABASE_URI = 'postgres+psycopg2://postgres:password@localhost:5432/fyyur'
